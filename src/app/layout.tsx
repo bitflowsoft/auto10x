@@ -30,7 +30,10 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
-        {/* Google Analytics - TODO: auto10x용 GA4 측정 ID 추가 */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-BJXRQ2ZXVR" strategy="afterInteractive" />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-BJXRQ2ZXVR');`}
+        </Script>
 
         <link rel="preconnect" href="https://cdn.jsdelivr.net" />
         <link
