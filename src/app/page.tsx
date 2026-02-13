@@ -214,14 +214,13 @@ export default function Home() {
             <div className="product-block">
               <div>
                 <div className="product-num num-green">1</div>
-                <h3>네이버 블로그 솔루션 프로그램</h3>
-                <p className="product-desc">블로그 포스팅 작성을 도와주는 올인원 에디터. 금지어 탐지부터 키워드 관리, 경쟁 분석까지.</p>
+                <h3>블로그 원고 작성 서포터</h3>
+                <p className="product-desc">블로그 포스팅 작성을 도와주는 올인원 에디터. 금지어 탐지부터 키워드 관리까지.</p>
                 <ul className="feature-list">
                   <li><CheckIcon /> 실시간 글자수 계산 & 목표 달성률 표시</li>
                   <li><CheckIcon /> 네이버 금지어 자동 탐지 & 대체어 일괄 치환</li>
                   <li><CheckIcon /> 목표 키워드 보호 (치환에서 자동 제외)</li>
                   <li><CheckIcon /> 이미지/동영상 리소스 관리 & 플레이스홀더</li>
-                  <li><CheckIcon /> 인기글 분석 & 블로그 점수 산출 & 경쟁 분석</li>
                   <li><CheckIcon /> 타이핑 시간 자동 측정</li>
                 </ul>
               </div>
