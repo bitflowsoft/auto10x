@@ -250,8 +250,8 @@ export default function Home() {
             <div className="product-block reverse">
               <div>
                 <div className="product-num num-blue">2</div>
-                <h3>네이버 블로거 수집기</h3>
-                <p className="product-desc">키워드 검색으로 블로거 정보와 연락처를 자동 수집. 블로그 계정 수급에 필요한 리드를 빠르게 확보합니다.</p>
+                <h3>고성능 네이버 블로그 DB 수집기</h3>
+                <p className="product-desc">키워드로 블로거 정보/연락처 자동 수집</p>
                 <ul className="feature-list">
                   <li><CheckIcon color="#2563EB" /> 키워드 기반 블로그 검색 (최대 100건)</li>
                   <li><CheckIcon color="#2563EB" /> 연관 키워드 자동 확장 검색</li>
